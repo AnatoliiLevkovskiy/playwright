@@ -2,8 +2,8 @@ on:
     push:
       branches:
       - master
-  
-  jobs:
+      
+jobs:
     e2e-tests:
       runs-on: ubuntu-latest # or macos-latest, windows-latest
       steps:
